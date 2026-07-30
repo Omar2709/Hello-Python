@@ -25,9 +25,8 @@ for indice, num in enumerate(num_list):
 
 count = 0
 for indice, num in enumerate(num_list):
+    count += 1
     if num == 36:
         print("El número 36 se encuentra en el índice:", indice)
-        count += 1
         break
-
 print(count)
